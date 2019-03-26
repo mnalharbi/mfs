@@ -25,7 +25,7 @@ SECRET_KEY = '!lg8j*oprbgl#15rxhj151j3!(#bbbnaqm9w3d9jg*!9aj!5jb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'mathfilters',
     'django.contrib.humanize',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
